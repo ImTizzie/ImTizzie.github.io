@@ -1,0 +1,17 @@
+{
+  "name": "solid-portfolio-starter",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "solid-start dev",
+    "build": "solid-start build",
+    "preview": "solid-start preview"
+  },
+  "dependencies": {
+    "solid-start": "^0.3.0",
+    "solid-js": "^1.7.0",
+    "vite": "^4.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  }
+}
