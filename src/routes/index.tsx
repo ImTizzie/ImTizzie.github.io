@@ -1,8 +1,11 @@
-export default function Home() {
+// src/routes/index.tsx
+const HomePage = () => {
   return (
-    <main>
-      <h1>This is Header 1</h1>
-      <p>This is a SolidStart project configured for GitHub Pages.</p>
-    </main>
+    <div>
+      <h1>Welcome to My Portfolio!</h1>
+      <p>Exciting things coming soon!</p>
+    </div>
   );
-}
+};
+
+export default HomePage;

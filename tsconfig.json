@@ -2,11 +2,13 @@
   "compilerOptions": {
     "target": "ESNext",
     "module": "ESNext",
+    "moduleResolution": "Node",
     "jsx": "preserve",
-    "moduleResolution": "node",
+    "jsxImportSource": "solid-js",
     "strict": true,
-    "baseUrl": ".",
-    "types": ["vite/client"]
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true
   },
   "include": ["src"]
 }

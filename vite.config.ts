@@ -1,7 +1,7 @@
-import { defineConfig } from "vite";
-import solid from "solid-start/vite";
+// vite.config.ts
+import solid from 'solid-start/vite';
+import staticAdapter from 'solid-start-static';
 
-export default defineConfig({
-  plugins: [solid()],
-  base: "/"
-});
+export default {
+  plugins: [solid({ adapter: staticAdapter() })],
+};

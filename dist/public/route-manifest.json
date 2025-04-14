@@ -1,0 +1,19 @@
+{
+  "entry-client": {
+    "type": "entry",
+    "script": {
+      "type": "script",
+      "href": "/assets/entry-client-d7912efc.js"
+    },
+    "assets": [
+      {
+        "type": "script",
+        "href": "/assets/entry-client-d7912efc.js"
+      }
+    ]
+  },
+  "index.html": {
+    "type": "entry",
+    "assets": []
+  }
+}
