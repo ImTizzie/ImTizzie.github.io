@@ -1,6 +1,7 @@
 {
-  "name": "solid-portfolio-starter",
-  "version": "0.1.0",
+  "name": "imtizzie.github.io",
+  "version": "0.0.02",
+  "homepage": "https://imtizzie.github.io",
   "type": "module",
   "scripts": {
     "dev": "solid-start dev",
